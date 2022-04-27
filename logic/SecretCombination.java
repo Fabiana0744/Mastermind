@@ -10,11 +10,11 @@ import java.util.Random;
  */
 public class SecretCombination {
 	
-	int combinationLength = 4;
+	private int combinationLength = 4;
 	
 	Colors colors = new Colors();
 	
-	Color[] secretCombination = {Color.white, Color.white, Color.white, Color.white};
+	private Color[] secretCombination = {Color.white, Color.white, Color.white, Color.white};
 	
 	Random randomMethod = new Random();
 	

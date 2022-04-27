@@ -15,11 +15,11 @@ import ui.Buttons;
  */
 public class PlayerCombination{	
 	
-	int count = 0;
+	private int count = 0;
 	
-	Color[] playerCombination = {Color.white, Color.white, Color.white, Color.white};
+	private Color[] playerCombination = {Color.white, Color.white, Color.white, Color.white};
 	
-	int combinationLength = 4;
+	private int combinationLength = 4;
 	
 	Colors colors = new Colors();
 	

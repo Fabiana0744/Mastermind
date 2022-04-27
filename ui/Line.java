@@ -51,8 +51,8 @@ public class Line extends JPanel {
 
 
 		        //Draws the rounded panel with borders.
-		        graphics.setColor(Color.gray);
-		        graphics.fillRoundRect(0, 0, width-1, height-1, arcs.width, arcs.height);//paint background
+		        graphics.setColor(Color.white);
+		        //graphics.fillRoundRect(0, 0, width-1, height-1, arcs.width, arcs.height);//paint background
 		        graphics.setColor(Color.black);
 		        graphics.drawRoundRect(0, 0, width-1, height-1, arcs.width, arcs.height);//paint border
 		     }
